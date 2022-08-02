@@ -1,0 +1,97 @@
+@charset "utf-8";
+input[type=radio], input[type=checkbox], button, label {
+    cursor:pointer;
+}
+
+#joinsection {
+    padding-top: 106px;
+}
+#joinbox {
+    width: 450px;
+    padding: 60px 68px 60px;
+    margin: 0px auto 50px;    
+    background: #2828665a;
+    text-align: center;
+}
+#joinbox h2 {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #282866;
+}
+#joinbox input {
+    display: inline-block;
+}
+#joinbox #id, #pw, #pwcheck {
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #fff;
+    outline: none;
+    height: 38px;
+    padding: 16px 20px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+#joinbox .idpw {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+#joinbox .info {
+    padding: 46px 0;
+    text-align: left;
+}
+#joinbox .info #irum {
+    font-size: 16px;
+    padding: 10px 16px;
+    border: 1px solid #fff; 
+    border-radius: 3px;
+    width: 62%;
+    margin-right: 10px;
+    vertical-align: top;
+    outline: none;
+}
+#joinbox .info input[name=gender] {
+    display: none;
+}
+#joinbox .info .box {
+    overflow: hidden;
+}
+#joinbox .info .box1 label {
+    float: right;
+    display: inline-block;
+    padding: 10px 16px;
+    margin-right: 3px;
+    background: #fff;
+    color: #282866;
+    border-radius: 3px;
+}
+#joinbox .info input[name=gender]:checked+label {
+    background: #282866;
+    color: #fff;
+}
+#joinbox .info .box2 select {
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    margin: 16px 8px 0 0;
+    color: rgb(107, 107, 107);
+    border: none;
+    appearance: none;
+    width: 45%;
+    float: left;
+    outline: none;
+}
+#joinbox .info .box3 textarea {
+    border: none;
+    margin-top: 16px;
+    padding: 10px;
+    outline: none;
+}
+#joinbox button {
+    width: 35%;
+    height: 38px;
+    background: #282866;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
